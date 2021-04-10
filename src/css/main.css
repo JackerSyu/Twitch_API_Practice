@@ -1,6 +1,8 @@
 body {
-  background: url("http://cdn.leagueoflegends.com/lolkit/1.1.6/resources/images/bg-default.jpg") no-repeat center;
+  /* background: url("http://cdn.leagueoflegends.com/lolkit/1.1.6/resources/images/bg-default.jpg") no-repeat center; */
   background-attachment: fixed;
+  background-image: 
+   linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url("http://cdn.leagueoflegends.com/lolkit/1.1.6/resources/images/bg-default.jpg");
   margin: 0;
 }
 .carousel-inner img {
