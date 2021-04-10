@@ -4,7 +4,7 @@ let LANG = 'zh';
 
 function changeLang(lang){
   console.log("change language : "+ lang);
-  $('.menu h1').text(window.I18N[lang]['TITLE']);
+  $('.row h1').text(window.I18N[lang]['TITLE']);
   nowIndex = 0;
   LANG = lang;
   $('.deafult-row').empty();
