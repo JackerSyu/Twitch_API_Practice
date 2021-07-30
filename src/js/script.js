@@ -16,7 +16,7 @@ function changeLang(lang){
 function getData (lang, cb) {
     const api = 'https://api.twitch.tv/helix/streams';
     const clientId = '7xrokwvayhyqw2zpaq0fhdo1sdahvf';
-    const accessToken = 'ljs5krie63shuglcjincggn3oele5y'; // 強制每60天要更新
+    const accessToken = 'ywa3d1z0heq0yn4o5b9hqjfkojlzea'; // 強制每60天要更新
     const queryString = `?game_id=21779&language=${lang}`;
     isLoading = true;
 
@@ -35,7 +35,7 @@ function getData (lang, cb) {
 function getUser (id, cb) {
   const api = 'https://api.twitch.tv/helix/users';
   const clientId = '7xrokwvayhyqw2zpaq0fhdo1sdahvf';
-  const accessToken = 'ljs5krie63shuglcjincggn3oele5y';
+  const accessToken = 'ywa3d1z0heq0yn4o5b9hqjfkojlzea';
   const queryString = "?id="+id;
   isLoading = true;
 
